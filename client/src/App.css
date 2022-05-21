@@ -31,7 +31,8 @@ body {
 	text-align: center;
 	list-style-type: none;
 	position: relative;
-	padding: 10px;
+	padding: 1px;
+	padding-top: 15px;
 	transition: .5s;
 }
 .tree li::before, .tree li::after {
