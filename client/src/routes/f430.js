@@ -3,7 +3,7 @@ import React from 'react';
 import { Navigate } from 'react-router-dom';
 
 
-function Profilexample() {
+function F430() {
     const [goToHome, setHome] = React.useState(false);
 
     if (goToHome) {
@@ -27,4 +27,4 @@ function Profilexample() {
     );
 }
 
-export default Profilexample;
+export default F430;
