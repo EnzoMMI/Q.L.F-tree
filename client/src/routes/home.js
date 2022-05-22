@@ -4,6 +4,9 @@ import React from 'react';
 function Home() {
     return (
         <body>
+
+            <h2 data-text="Que La Famille">Que La Famille</h2>
+
             <div class="container">
                 <div class="row">
                     <div class="tree">
@@ -40,6 +43,15 @@ function Home() {
                     </div>
                 </div>
             </div>
+
+            <div class="playlists">
+                <h1>PLAYLISTS:</h1>
+                <p><strong>Découvre leurs sons selon ton humeur ! ;D</strong></p>
+                <p> De bonne humeur ? <a href="https://open.spotify.com/playlist/79kFW2nx3Mbf9kVwrJGbSE?si=xbnBZtTBTpGdvSIZVit5MQ">click ici !</a></p>
+                <p> Un peu triste ? <a href="https://open.spotify.com/playlist/6VpzejxGB527FkbTrbKo4W?si=_y7ii1xhQkKDxTcroaESPQ">click ici !</a></p>
+                <p> D'une humeur calme et détendue ? <a href="https://open.spotify.com/playlist/0iU0kWxoCb9lu2EjFvNDEZ?si=Q2uAveRNTaGbX4x3eciUSw">click ici !</a></p>
+            </div>
+
         </body>
     );
 }

@@ -2,20 +2,62 @@
   background-color: aqua;
 } */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-/* * {
-	padding: 0px;
-	margin: 0px;
+* {
+	margin: 0;
+	padding: 0;
 	box-sizing: border-box;
-} */
+	font-family: 'Poppins', sans-serif;
+}
+
 body {
 	padding: 0px;
 	margin: 0px;
 	box-sizing: border-box;
-	height: 100vh;
+	height: 100vw;
 	display: grid;
 	align-items: center;
 	font-family: 'Poppins', sans-serif;
 }
+
+body h2 {
+	margin-left: 12%;
+	margin-bottom: 40%;
+	min-height: 100vh;
+	position: absolute;
+	font-size: 10vw;
+	color: #252839;
+	-webkit-text-stroke: 0.3vw #383d52;
+	text-transform: uppercase;
+	white-space: nowrap;
+}
+
+body h2::before {
+	content: attr(data-text);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 25%;
+	color: #0a79f8;
+	-webkit-text-stroke: 0vw #383d52;
+	border-right: 2px solid #0a79f8;
+	overflow: hidden;
+	animation: animate 6s linear infinite;
+
+}
+
+@keyframes animate
+{
+	0%,10%,100%
+	{
+		width: 0;
+	}
+	70%,90%
+	{
+		width: 100%;
+	}
+}
+
 .tree {
 	width: 100%;
 	height: auto;
@@ -120,7 +162,7 @@ body {
 
 
 /******************************************************************************/
-/*Other pages section*/
+/*Other Pages Section*/
 
 .qlf {
 	text-align: center;
@@ -171,5 +213,10 @@ body {
 }
 
 .jet {
+	text-align: center;
+}
+
+.playlists {
+	margin-top: -50%;
 	text-align: center;
 }
