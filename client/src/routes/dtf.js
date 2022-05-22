@@ -28,12 +28,12 @@ function DTF() {
             <br />Clique de Mouloud Achour sur Canal +, ainsi qu'un live de l'un des titres de leur album. En une semaine, l'album s'écoule à 8 963 exemplaires.
             <br />L'album sera certifié disque d'or le 11 septembre 2020, soit onze mois après sa sortie. Le groupe s'associe par la suite à N.O.S, l'un des frères du groupe PNL,
             <br />sur le titre Dans la ville10. Le titre est certifié single d'or, le 12 juin 2020.
-
+            <br />
             <br />Le groupe prend part à la tournée Deux frères de PNL, pour assurer la première partie du groupe. Quelques jours après le début de la tournée,
             <br />un des bus qui transportait une partie de l'équipe technique et membre de la tournée, a été victime d'un accident de la route
             <br />dont 7 personnes se sont retrouvées blessées. On apprendra dans la soirée que le groupe se trouvait dans le véhicule, puisque lors du concert,
             <br />le rappeur RKM a effectué sa prestation assis sur une chaise.
-
+            <br />
             <br />Le lendemain le groupe confirma la nouvelle via les réseaux sociaux, en indiquant qu'ils se retiraient
             <br />provisoirement de la tournée quelques jours pour raison personnelle.</p>
             <br />
