@@ -11,9 +11,9 @@ function Profilexample() {
     }
 
     return (
-        <div class="diva">
-            <img src={require('./../images/PNL_ademo.jpg')} alt=""></img>
-            <h1>Title:</h1>
+        <div class="karim">
+            <img src={require('./../images/DTF_RKM_Karim_Azzouz.jpg')} alt=""></img>
+            <h1>KARIM AZZOUZ:</h1>
             <p>Paragraphe:</p>
             <button onClick={() => {setHome(true)}}>GO HOME</button>
         </div>
